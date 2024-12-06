@@ -1,12 +1,6 @@
-# Stock-Market-Sentiment-Analysis
+# Market-Sentiment-Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![Python](https://upload.wikimedia.org/wikipedia/commons/3/34/Blue_Python_3.6_Shield_Badge.svg)
-
-<p align="center">
-    <a href="https://www.buymeacoffee.com/wyavs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="35px"></a>
-</p>
-
-![Stock Market](https://github.com/gandalf1819/Stock-Market-Sentiment-Analysis/blob/master/stock-market.jpg)
 
 Identification of trends in the stock prices of a company by performing fundamental analysis of the company. News articles were provided as training data-sets to the model which classified the articles as positive or neutral. Sentiment score was computed by calculating the difference between positive and negative words present in the news article. Comparisons were made between the actual stock prices and the sentiment scores. Naive Bayes, OneR and Random Forest algorithms were used to observe the results of the model using Weka
 
@@ -29,7 +23,7 @@ Performed by the Technical Analysts, this method deals with the determination of
 ![picture1](https://user-images.githubusercontent.com/22028693/48114922-f5804f80-e22e-11e8-8169-c61c9702c6ec.png)
 
 ## News Collection
-We collected State Bank India’s (SBI) data for past three months, from 1 Feb 2017 to 30 April 2017. This data includes major key events news articles of the company and also daily stock prices of SBIN for the same time period. Daily stock prices contain six values as Open, High, Low, Close, Adjusted Close, and Volume. For integrity throughout the project, we considered Adjusted Close price as everyday stock price. We have collected this data from major news aggregators such as news.google.com, reauters.com, finance.yahoo.com.
+State Bank India’s (SBI) data for past three months, from 1 Feb 2017 to 30 April 2017 this data includes major key events news articles of the company and also daily stock prices of SBIN for the same time period. Daily stock prices contain six values as Open, High, Low, Close, Adjusted Close, and Volume. For integrity throughout the project, we considered Adjusted Close price as everyday stock price. Data is collected from major news aggregators such as news.google.com, reauters.com, finance.yahoo.com.
 
 ## Pre Processing
 Text data is unstructured data. So, we cannot provide raw test data to classifier as an input. Firstly, we need to tokenize the document into words to operate on word level. Text data contains more noisy words which are not contributing towards classification. So, we need to drop those words. In addition, text data may contain numbers, more white spaces, tabs, punctuation characters, stop words etc. We also need to clean data by removing all those words.
@@ -153,14 +147,6 @@ As most of the research shows that ZeroR, Random Forest and Naïve Bayes classif
        10        1:?      2:pos       0.75 
        11        1:?      1:neg       0.51 
        12        1:?      2:pos       0.77 
-
-## Contributions
-
-Please feel free to create a Pull Request for adding implementations of the algorithms discussed in different frameworks or improving the existing implementations
-
-## Support
-
-If you found this useful, please consider starring(★) the repo so that it can reach a broader audience
 
 ## License
 
