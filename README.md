@@ -20,11 +20,6 @@ Performed by the Fundamental Analysts, this method is concerned more with the co
 ## Technical Analysis: 
 Performed by the Technical Analysts, this method deals with the determination of the stock price based on the past patterns of the stock (using time-series analysis.)
 
-
-# System Design
-
-![picture1](https://user-images.githubusercontent.com/22028693/48114922-f5804f80-e22e-11e8-8169-c61c9702c6ec.png)
-
 ## News Collection
 State Bank India’s (SBI) data for past three months, from 1 Feb 2017 to 30 April 2017 this data includes major key events news articles of the company and also daily stock prices of SBIN for the same time period. Daily stock prices contain six values as Open, High, Low, Close, Adjusted Close, and Volume. For integrity throughout the project, we considered Adjusted Close price as everyday stock price. Data is collected from major news aggregators such as news.google.com, reauters.com, finance.yahoo.com.
 
